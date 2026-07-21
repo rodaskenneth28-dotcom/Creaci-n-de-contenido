@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lider Organico</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2.5rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #111111;
+      transition: background-color 0.4s ease, color 0.4s ease;
+    }
+
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 0.1em;
+      text-align: center;
+      padding: 0 1rem;
+    }
+
+    button {
+      padding: 0.9rem 2.2rem;
+      font-size: 1.1rem;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+      border: 2px solid currentColor;
+      border-radius: 50px;
+      background: transparent;
+      color: inherit;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(128, 128, 128, 0.5);
+    }
+
+    button:active {
+      transform: scale(0.97);
+    }
+  </style>
+</head>
+<body>
+  <h1>LIDER ORGANICO</h1>
+  <button id="toggleBtn">Cambiar color</button>
+
+  <script>
+    const body = document.body;
+    const button = document.getElementById('toggleBtn');
+
+    button.addEventListener('click', () => {
+      const isDark = body.style.backgroundColor === 'rgb(0, 0, 0)' || body.style.backgroundColor === 'black';
+      if (isDark) {
+        body.style.backgroundColor = '#ffffff';
+        body.style.color = '#111111';
+      } else {
+        body.style.backgroundColor = '#000000';
+        body.style.color = '#ffffff';
+      }
+    });
+  </script>
+</body>
+</html>
