@@ -45,6 +45,7 @@ El alcance de los reels 01 a 04 tenía menos de 48 horas al consultar los datos.
 - Título de la portada = gancho de los primeros 3 segundos = primera línea del copy.
 - Sin firma ni logo de la cuenta: la presencia de Omes ya da la autoridad.
 - Variaciones de estilo (título más pequeño, sin etiqueta, frase corta) en [`variaciones/`](variaciones/), con y sin firma.
+- Las mismas variaciones con un fotograma mejor elegido (sonrisa o rostro sereno, sin gesto a media palabra) en [`variaciones/nueva_foto/`](variaciones/nueva_foto/).
 
 ## Fuente y método
 
