@@ -43,6 +43,8 @@ El alcance de los reels 01 a 04 tenía menos de 48 horas al consultar los datos.
 - Una toma del mismo reel con Omes visible, exportada **sin la capa de subtítulos**.
 - Etiqueta del pilar en ámbar (#FFB300) y título de máximo 3 líneas en Anton blanco, con la idea clave en ámbar.
 - Título de la portada = gancho de los primeros 3 segundos = primera línea del copy.
+- Sin firma ni logo de la cuenta: la presencia de Omes ya da la autoridad.
+- Variaciones de estilo (título más pequeño, sin etiqueta, frase corta) en [`variaciones/`](variaciones/), con y sin firma.
 
 ## Fuente y método
 
