@@ -48,6 +48,7 @@ El alcance de los reels 01 a 04 tenía menos de 48 horas al consultar los datos.
 - Las mismas variaciones con un fotograma mejor elegido (sonrisa o rostro sereno, sin gesto a media palabra) en [`variaciones/nueva_foto/`](variaciones/nueva_foto/).
 - Ejemplo con la toma más nítida y mejor iluminada (reel 08, balcón con luz de día) en [`variaciones/reel08/`](variaciones/reel08/).
 - Test con el texto en la parte de arriba (titular grande, frase corta y subtítulo en caja) en [`variaciones/reel08_texto_arriba/`](variaciones/reel08_texto_arriba/).
+- Todas las variaciones en una sola imagen con acento naranja (#FF7A00): [`variaciones/naranja/todas_las_variaciones_naranja.jpg`](variaciones/naranja/todas_las_variaciones_naranja.jpg). Cada portada tiene un código (p. ej. 08B-V3) para elegir.
 
 ## Fuente y método
 
